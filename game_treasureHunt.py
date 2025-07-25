@@ -1,6 +1,5 @@
 from random import choice, randint
 import os
-print("Current working directory:", os.getcwd())
 
 class Player:
     def __init__(self, coin: int = 20, life: int = 3): 
